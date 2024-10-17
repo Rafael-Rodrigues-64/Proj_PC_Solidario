@@ -1,31 +1,32 @@
-venv
+# venv
+# venv (Em produção)
 
 # Django #
-*.log
-*.pot
-*.pyc
-__pycache__
+# *.log (Em produção)
+# *.pot (Em produção)
+# *.pyc (Em produção)
+# __pycache__ (Em produção)
 db.sqlite3
 media
 
 # Visual Studio Code #
-.vscode/*
-!.vscode/sttings
+# .vscode/* (Em produção)
+# !.vscode/sttings (Em produção)
 
 # Backup files #
-*.bak
+# *.bak (Em produção)
 
 # Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+# pip-log.txt (Em produção)
+# pip-delete-this-directory.txt (Em produção)
 
 # pyenv
-.python-version
+#.python-version (Em produção)
 
 # Visual Studio Code #
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history
+# .vscode/* (Em produção)
+# !.vscode/settings.json (Em produção)
+# !.vscode/tasks.json (Em produção)
+# !.vscode/launch.json (Em produção)
+# !.vscode/extensions.json (Em produção)
+# .history (Em produção)
