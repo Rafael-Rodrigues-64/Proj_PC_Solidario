@@ -1,3 +1,5 @@
+{% load static %}
+
 {% include "app_home/partials/head.html" %}
 
 <body>
@@ -9,8 +11,8 @@
 </body>
 
 <!-- Swiper JS -->
-<script type="text/javascript" src="assets/javascript/swiper-bundle.min.js"></script>
-            
+<script src="{% static 'app_home/javaScript/swiper-bundle.min.js' %}"></script>
+
 <!-- JavaScript -->
-<script type="text/javascript" src="assets/javascript/swiper.js"></script>
+<script src="{% static 'app_home/javaScript/swiper.js' %}"></script>
 </html>
