@@ -111,5 +111,6 @@ db copy.sqlite3
 # static/
 
 # Arquivos estáticos
-staticfiles/
+
+# staticfiles/
 
