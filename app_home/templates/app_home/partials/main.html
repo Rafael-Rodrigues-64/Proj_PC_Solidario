@@ -1,3 +1,5 @@
+{% load static %}
+
 <main>
     <section class="slider-Carrossel"> <!-- Carrossel -->
         <div class="slider-content-Carrossel">
@@ -7,15 +9,15 @@
             <input type="radio" name="btn-radio" id="radio3">
 
             <div class="slide-box primeiro">
-                <a href=""><img src="assets/images/banner_azul_contribua.png" alt="slide 1"></a>
+                <a href=""><img src="{% static 'app_home/images/banner_azul_contribua.png' %}" alt="slide 1"></a>
             </div>
 
             <div class="slide-box">
-                <a href=""><img src="assets/images/banner _IMAGENS_lixo_eletronico.png" alt="slide 2"></a>
+                <a href=""><img src="{% static 'app_home/images/banner _IMAGENS_lixo_eletronico.png' %}" alt="slide 2"></a>                                
             </div>
 
             <div class="slide-box">
-                <a href=""><img src="assets/images/banner_O_QUE_É_LIXO.png" alt="slide 3"></a>
+                <a href=""><img src="{% static 'app_home/images/banner_O_QUE_É_LIXO.png' %}" alt="slide 3"></a>
             </div>
 
             <div class="nav-auto">
@@ -48,7 +50,7 @@
                         <div class="section-noticias--areas">
                             <article class="noticias--areas">
                                 <div class="noticias-img">
-                                    <a href="html_area_noticias/areaNoticias1.html"><img src="media/areaNoticias1.0.jpg" alt=""></a>
+                                    <a href="html_area_noticias/areaNoticias1.html"><img src="{% static 'app_home/media/areaNoticias1.0.jpg' %}" alt=""></a>
                                 </div>
                                 <div class="noticias-title-desc-mais">
                                     <h2><a href="html_area_noticias/areaNoticias1.html">Alunos detalham o passo a passa para doações, triagem de materiais e entrega para instituições.</a></h2>
@@ -65,7 +67,7 @@
                         <div class="section-noticias--areas">
                             <article class="noticias--areas">
                                 <div class="noticias-img">
-                                    <a href="html_area_noticias/areaNoticias1.html"><img src="media/areaNoticias1.0.jpg" alt=""></a>
+                                    <a href="html_area_noticias/areaNoticias1.html"><img src="{% static 'app_home/media/areaNoticias1.0.jpg' %}" alt=""></a>
                                 </div>
                                 <div class="noticias-title-desc-mais">
                                     <h2><a href="html_area_noticias/areaNoticias1.html">Alunos detalham o passo a passa para doações, triagem de materiais e entrega para instituições.</a></h2>
@@ -81,7 +83,7 @@
                         <div class="section-noticias--areas">
                             <article class="noticias--areas">
                                 <div class="noticias-img">
-                                    <a href="html_area_noticias/areaNoticias1.html"><img src="media/areaNoticias1.0.jpg" alt=""></a>
+                                    <a href="html_area_noticias/areaNoticias1.html"><img src="{% static 'app_home/media/areaNoticias1.0.jpg' %}" alt=""></a>
                                 </div>
                                 <div class="noticias-title-desc-mais">
                                     <h2><a href="html_area_noticias/areaNoticias1.html">Alunos detalham o passo a passa para doações, triagem de materiais e entrega para instituições.</a></h2>
@@ -109,13 +111,13 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_1.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_1.jpg' %}" class="card-img" alt="">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
                                     <div class="description-div"></div>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -130,12 +132,12 @@
                                     <span class="overlay"></span>
         
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_2.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_2.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -149,12 +151,12 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_3.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_3.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -168,12 +170,12 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_4.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_4.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -188,12 +190,12 @@
                                     <span class="overlay"></span>
         
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_5.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_5.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -208,12 +210,12 @@
                                     <span class="overlay"></span>
         
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_6.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_6.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -227,12 +229,12 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_7_copy.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_7_copy.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -246,12 +248,12 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_8_copy.jpg" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_8_copy.jpg' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -265,12 +267,12 @@
                                 <div class="image-content">
                                     <span class="overlay"></span>            
                                     <div class="card-image">
-                                        <img src="media/area_home_dep_9_quadrado.png" alt="" class="card-img">
+                                        <img src="{% static 'app_home/media/area_home_dep_9_quadrado.png' %}" alt="" class="card-img">
                                     </div>
                                 </div>            
                                 <div class="card-content">
                                     <h2 class="name">Rafael Gomes</h2>
-                                    <p class="description"><img src="assets/images/quote.png" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
+                                    <p class="description"><img src="{% static 'app_home/images/quote.png' %}" class="img-description_1" alt="">The lorem text the section that contains header with having open functionality. lorem dolor sit amet consectetur adipisicing elit. lorem dolor sit amet consectetur. lorem dolor sit amet consectetur dolor sit amet.<img src="assets/images/quote.png" alt="" class="img-description_2"></p>            
                                     <div class="info-name">
                                         <div class="info-name--desc">
                                             <span>Instituição: Ong tal</span>
@@ -297,7 +299,7 @@
                 <div class="section-body">
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/aluna.png" alt=""> 
+                            <img src="{% static 'app_home/images/aluna.png' %}" alt=""> 
 
                             <span>50 cinquanta</span>
 
@@ -306,7 +308,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/computador.png" alt=""> 
+                            <img src="{% static 'app_home/images/computador.png' %}" alt=""> 
 
                             <span>+1 mil</span>
 
@@ -315,7 +317,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/aperto-de-mao.png" alt=""> 
+                            <img src="{% static 'app_home/images/aperto-de-mao.png' %}" alt=""> 
 
                             <span>5 cinco</span>
 
@@ -324,7 +326,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/cidade.png" alt=""> 
+                            <img src="{% static 'app_home/images/cidade.png' %}" alt=""> 
 
                             <span>2 duas</span>
 
@@ -333,7 +335,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/brasil.png" alt=""> 
+                            <img src="{% static 'app_home/images/brasil.png' %}" alt=""> 
 
                             <span>2 oito</span>
 
@@ -342,7 +344,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/lixeira.png" alt=""> 
+                            <img src="{% static 'app_home/images/lixeira.png' %}" alt=""> 
 
                             <span>+1 tonelada</span>
 
@@ -351,7 +353,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/ondas-de-agua.png" alt=""> 
+                            <img src="{% static 'app_home/images/ondas-de-agua.png' %}" alt=""> 
 
                             <span>+100 mil</span>
 
@@ -360,7 +362,7 @@
                     </div>
                     <div class="item">
                         <div class="itemarea">
-                            <img src="assets/images/barril-de-petroleo (1).png" alt=""> 
+                            <img src="{% static 'app_home/images/barril-de-petroleo (1).png' %}" alt=""> 
 
                             <span>+10 mil</span>
 
