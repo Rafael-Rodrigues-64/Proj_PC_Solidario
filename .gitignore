@@ -110,7 +110,7 @@ db.sqlite3
 db copy.sqlite3
 
 # Arquivos estáticos para versionamentos
-# static/
+static/
 
 # Arquivos estáticos Gerados automaticamente
 # staticfiles/
