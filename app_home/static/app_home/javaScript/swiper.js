@@ -31,3 +31,5 @@ var swiper = new Swiper(".slide-content--dep", {
         },
     },
 });
+
+//# sourceMappingURL=swiper-bundle.min.js.map
